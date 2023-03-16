@@ -608,11 +608,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .experience .typography-title {
   color: #fff;
   font-size: 17px;
+  /* font-weight: 550; */
 }
 
 .experience .typography-text {
-  color: #B8B8B8;
-  padding: 0 10pxs 0 10px;
+  color: #fff;
+  padding: 0 10px 0 10px;
   text-align: justify;
 }
 
