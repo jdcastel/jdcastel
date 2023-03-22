@@ -7,7 +7,7 @@ I made this with my repo: (https://github.com/DavidsDvm/GitHub_ProfileReadmeGIF)
 There i made and page with the GIF content, later i record my screen with OBS
 after that i converter the video from mp4 to gif
 ur welcome ;) 
--->
+
 <a href="https://github.com/DavidsDvm">![DavidsDvm Profile GIF](./assets/profile_presentation.gif)</a>
 
 <!-- Social icons section -->
@@ -191,3 +191,4 @@ Last refresh: <b>Friday, March 17, 7:18 AM GMT-5</b>
 DavidsDvm/DavidsDvm is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+-->
