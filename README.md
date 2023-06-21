@@ -5,7 +5,7 @@ Software Developer | Web application developer | Mobile developer
 --------------------------
 
 *   🌍  Toronto,Ontario
-*   🖥️  See my portfolio at <a target="_blank" rel="noreferrer" href='https://personal-portfolio-beta-orpin.vercel.app/'>Portfolio</a>
+*   🖥️  Click, my <a target="_blank" rel="noreferrer" href='https://personal-portfolio-beta-orpin.vercel.app/'>Portfolio</a> to see it!
 *   🧠  Currently learning Next.js
 *   🤝  I'm open to collaborating on interesting projects as a developer
 
