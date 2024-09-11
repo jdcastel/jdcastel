@@ -31,14 +31,14 @@ export function ProjectsSection() {
                 <HeadingDivider title="Latest projects" />
                 <div className="my-5 flex flex-wrap justify-center">
                     {projects.map((project, index) => (
-                        <div key={index} className="m-4 max-w-xs bg-azul-grisaceo-claro rounded-lg shadow-md">
+                        <div key={index} className="m-4 max-w-xs bg-white rounded-lg shadow-md">
                             <a href={project.link} target="_blank" rel="noopener noreferrer">
                                 <div className="flex justify-center">
                                 <Image
                                     src={project.image}
                                     alt={project.title}
-                                    width={300}
-                                    height={200}
+                                    width={500}
+                                    height={300}
                                     className="rounded-t-lg max-w-full p-2"
                                 />
                                 </div>
