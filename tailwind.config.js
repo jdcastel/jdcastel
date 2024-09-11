@@ -31,7 +31,8 @@ module.exports = {
 			},
 			backgroundColor: {
 			'gris-claro-calido': 'rgb(248, 245, 255)',
-			'gris-medio-calido': 'rgb(240, 237, 250)'
+			'beige-muy-claro': 'rgb(250, 247, 240)',
+        	'azul-grisaceo-claro': 'rgb(240, 242, 245)',
 			},
 			transitionTimingFunction: {
 				"in-expo": "cubic-bezier(0.95, 0.05, 0.795, 0.035)",
