@@ -14,26 +14,19 @@ export function ProjectsSection() {
         {
             title: "Cloud-Based Microservice for Automotive Parts Company",
             description:
-                "Implemented a scalable microservice with CRUD operations to manage fragments of files in formats such as txt, JSON, PNG, JPEG, WebP, and GIF. Key AWS technologies including Cognito, ECR, ECS, S3, and DynamoDB were leveraged for efficient integration. Utilized Docker and Docker Compose, along with a robust CI/CD pipeline, to facilitate the project's transition through local, development, and production phases. Achieved secure deployment in a domain environment with HTTPS support. Developed unit tests, achieving an 80% coverage of the project. Tools like JEST and HURL were employed to ensure code reliability and quality across all stages of development.",
+                "AWS Cognito, ECR, ECS, S3, DynamoDB, Docker, Docker Compose, JEST, HURL",
             image: "/cloudImageProject.png",
             link: "https://youtu.be/oiVnywvvH7E",
         },
         {
             title: "Chronicle App (Social App Journal)",
             description:
-                "Developed with MERN stack (MongoDB, Express.js, React, Node.js) along with the NEXT framework for robust development in both the backend and frontend. Additionally, I managed data within the application using Redux. Implemented a user-centered UI/UX design in Figma, incorporating features such as travel journal creation, destination ratings, forums, and meetups. Maintained a detailed project schedule with milestones and acceptance criteria, monitoring progress on GitHub.",
-            image: "/chroniclePhotoProject.png",
+                "MERN stack, NEXT, Redux, Figma, GitHub",
+            image: "/smallchroniclePhotoProject.png",
             link: "https://chronicle-web-app-eight.vercel.app/",
-        },
-        {
-            title: "Music App Using Angular",
-            description:
-			"This project utilizes Angular to create a music application that integrates with the Spotify API for seamless access to music data. It implements CRUD operations to efficiently manage user data and interactions. With the Spotify API integration, users can explore new music releases, search for songs or artists, and enjoy personalized playlists. Additionally, the application features user authentication and JWT password security for a secure and personalized experience.",
-			image: "/seneca-musicNew.png",
-            link: "https://project-henna-six.vercel.app/login",
-        },
+        }
     ];
-
+   
     return (
         <LazyMotion features={domAnimation}>
             <section id="project" className="section">
@@ -43,13 +36,13 @@ export function ProjectsSection() {
                         <div key={index} className="m-4 max-w-xs bg-white rounded-lg shadow-md">
                             <a href={project.link} target="_blank" rel="noopener noreferrer">
                                 <div className="flex justify-center">
-                                    <Image
-                                        src={project.image}
-                                        width={500}
-                                        height={500}
-                                        alt={project.title}
-                                        className="rounded-t-lg"
-                                    />
+                                <Image
+                                    src={project.image}
+                                    width={300} 
+                                    height={200} 
+                                    alt={project.title}
+                                    className="rounded-t-lg"
+                                />
                                 </div>
                                 <div className="p-4">
                                     <h3 className="text-xl font-bold mb-2 text-black">{project.title}</h3>
