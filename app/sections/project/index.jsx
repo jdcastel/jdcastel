@@ -1,14 +1,13 @@
 "use effect"
 import { useRef } from "react";
-import { LazyMotion, domAnimation, useInView } from "framer-motion";
+import { LazyMotion, domAnimation } from "framer-motion";
 import { HeadingDivider } from "components";
 import Image from 'next/image'
 import { FaGithub } from "react-icons/fa";
-
+import './styles.css'
 
 export function ProjectsSection() {
     const textRef = useRef(null);
-    // const isTextInView = useInView(textRef, { once: true });
 
     const projects = [
         {
@@ -26,7 +25,6 @@ export function ProjectsSection() {
             link: "https://chronicle-web-app-eight.vercel.app/",
         }
     ];
-   
     return (
         <LazyMotion features={domAnimation}>
             <section id="project" className="section">
@@ -38,10 +36,10 @@ export function ProjectsSection() {
                                 <div className="flex justify-center">
                                 <Image
                                     src={project.image}
-                                    width={300} 
-                                    height={200} 
                                     alt={project.title}
-                                    className="rounded-t-lg"
+                                    width={300}
+                                    height={200}
+                                    className="rounded-t-lg max-w-full"
                                 />
                                 </div>
                                 <div className="p-4">
