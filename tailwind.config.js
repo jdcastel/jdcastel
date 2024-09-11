@@ -29,6 +29,10 @@ module.exports = {
 					light: "#F8F0E3"
 				}
 			},
+			backgroundColor: {
+			'gris-claro-calido': 'rgb(248, 245, 255)',
+			'gris-medio-calido': 'rgb(240, 237, 250)'
+			},
 			transitionTimingFunction: {
 				"in-expo": "cubic-bezier(0.95, 0.05, 0.795, 0.035)",
 				"out-back": "cubic-bezier(0.18, 0.89, 0.32, 1.28)"

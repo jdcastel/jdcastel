@@ -1,6 +1,6 @@
 @tailwind base;
 @layer base {
 	body {
-		@apply bg-white text-brand-dark dark:bg-brand-dark dark:text-brand-light;
+		@apply bg-gris-claro-calido text-brand-dark dark:bg-brand-dark dark:text-brand-light;
 	}
 }
