@@ -25,7 +25,7 @@ export function ExperienceSection() {
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work text-black"
 						date="May 2022 - Sep 2022"
-						iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+						iconStyle={{ background: "rgb(204, 16, 64)", color: "#fff" }}
 						 icon={<FaReact  size={32} />}
 					>
 						<h3 className="vertical-timeline-element-title text-black">Technical Support Specialist Volunteer</h3>
@@ -33,8 +33,6 @@ export function ExperienceSection() {
 						<h3  className="text-light">Worked closely with other technical support specialists to troubleshoot and resolve complex software issues.<br/>Provided clear and concise instructions for users to navigate the software features and functions, resulting in increased user adoption and satisfaction.<br/>Developed comprehensive process documentation to increase team efficiency and facilitate future troubleshooting.<br/>Demonstrated technical proficiency and problem-solving skills in resolving complex software issues.</h3>
 					</VerticalTimelineElement>
 				</VerticalTimeline>
-
-				{/* </div> */}
 			</section>
 		</LazyMotion>
 	);

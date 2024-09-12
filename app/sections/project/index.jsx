@@ -4,7 +4,6 @@ import { LazyMotion, domAnimation } from "framer-motion";
 import { HeadingDivider } from "components";
 import Image from 'next/image'
 import { FaGithub } from "react-icons/fa";
-import './styles.css'
 
 export function ProjectsSection() {
     const textRef = useRef(null);
@@ -15,15 +14,29 @@ export function ProjectsSection() {
             description:
                 "AWS Cognito, ECR, ECS, S3, DynamoDB, Docker, Docker Compose, JEST, HURL",
             image: "/cloudImageProject.png",
-            link: "https://youtu.be/oiVnywvvH7E",
+            projectLink: "https://youtu.be/oiVnywvvH7E",
         },
         {
             title: "Chronicle App (Social App Journal)",
             description:
                 "MERN stack, NEXT, Redux, Figma, GitHub",
             image: "/smallchroniclePhotoProject.png",
-            link: "https://chronicle-web-app-eight.vercel.app/",
-        }
+            projectLink: "https://chronicle-web-app-eight.vercel.app/",
+        },
+        {
+            title: "Figma Project to the Chronicle App",
+            description:
+                "Figma",
+            image: "/figmaChronicle.png",
+            projectLink: "https://www.figma.com/design/VAbF0h7eOmUrBrvts3njU6/Chronical-App-V2?node-id=0-1&t=mDX8yuXdlALRTeIJ-1",
+        },
+        {
+            title: "React Todo App",
+            description:
+                "React, React Hooks (Context, Models), Custom Hooks, Loading Skeleton",
+            image: "/reactTodo.png",
+            projectLink: "https://chronicle-web-app-eight.vercel.app/",
+        },
     ];
     return (
         <LazyMotion features={domAnimation}>
@@ -32,7 +45,7 @@ export function ProjectsSection() {
                 <div className="my-5 flex flex-wrap justify-center">
                     {projects.map((project, index) => (
                         <div key={index} className="m-4 max-w-xs bg-white rounded-lg shadow-md">
-                            <a href={project.link} target="_blank" rel="noopener noreferrer">
+                            <a href={project.projectLink} target="_blank" rel="noopener noreferrer">
                                 <div className="flex justify-center">
                                 <Image
                                     src={project.image}
@@ -52,8 +65,10 @@ export function ProjectsSection() {
                                         {project.description}
                                     </p>
                                     <div className="flex justify-center">
-                                        <a href={project.link} target="_blank" rel="noopener noreferrer" 
+                                        <a href={project.projectLink} target="_blank" rel="noopener noreferrer" 
 										className="inline-block mt-4 px-4 py-2 bg-blue-500 text-white rounded-md transition duration-300 hover:bg-blue-600" style={{backgroundColor: "rgb(49 130 206 / var(--tw-bg-opacity))"}}>Go to the Project</a>
+                                        {/* <a href={project.projectLink} target="_blank" rel="noopener noreferrer" 
+										className="inline-block mt-4 px-4 py-2 bg-blue-500 text-white rounded-md transition duration-300 hover:bg-blue-600" style={{backgroundColor: "rgb(49 130 206 / var(--tw-bg-opacity))"}}>Go to the Project</a> */}
                                     </div>
                                 </div>
                             </a>
