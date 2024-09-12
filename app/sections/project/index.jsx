@@ -35,7 +35,7 @@ export function ProjectsSection() {
             description:
                 "React, React Hooks (Context, Models), Custom Hooks, Loading Skeleton",
             image: "/reactTodo.png",
-            projectLink: "https://chronicle-web-app-eight.vercel.app/",
+            projectLink: "https://todoapp-neon-delta.vercel.app/",
         },
     ];
     return (
