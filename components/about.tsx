@@ -19,9 +19,8 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        I am a <span className="font-medium">Software Developer</span> with over{" "}
-        <span className="font-medium">3 years</span> of experience building scalable, enterprise applications using <span className="font-medium">C#</span> and{" "}
-        <span className="font-medium">.NET Core</span>. I specialize in developing robust backend services, optimizing database performance, and designing microservices architectures that ensure 24/7 reliability.
+        <span className="font-medium">I am a Software Developer</span> with over{" "}
+        <span className="font-medium">3 years</span> of experience building scalable enterprise applications using <span className="font-medium">Next.js</span> and <span className="font-medium">React</span>. I specialize in developing robust backend services with <span className="font-medium">.NET Core</span>, optimizing database performance, and creating modern web applications.
       </p>
       <p>
         I earned an{" "}
