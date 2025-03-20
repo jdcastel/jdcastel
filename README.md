@@ -1,6 +1,6 @@
 # Hi, I'm Juan David 👋
 
-I'm a **Software Developer** with over **3 years** of experience building scalable enterprise applications using **C#** and **.NET Core**. I specialize in developing robust backend services, optimizing database performance, and creating modern web applications.
+I'm a **Software Developer** with over **3 years** of experience building scalable enterprise applications using **Next.js** and **React**. I specialize in developing robust backend services with **.NET Core**, optimizing database performance, and creating modern web applications.
 
 ---
 
@@ -68,7 +68,7 @@ I'm a **Software Developer** with over **3 years** of experience building scalab
 - [LinkedIn](https://www.linkedin.com/in/jdcastel/)
 - [GitHub](https://github.com/jdcastel)
 - [Portfolio](https://juan-castelblanco.vercel.app/)
-- Email: [jdrcast@gmail.com](mailto:jdrcast@gmail.com)
+- Email: [jdrcastel@gmail.com](mailto:jdrcastel@gmail.com)
 
 ---
 
