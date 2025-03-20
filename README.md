@@ -1,4 +1,4 @@
-# Hi, I'm Juan David 👋
+# Hi, I'm Juan David Rodriguez Castelblanco 👋
 
 I'm a **Software Developer** with over **3 years** of experience building scalable enterprise applications using **Next.js** and **React**. I specialize in developing robust backend services with **.NET Core**, optimizing database performance, and creating modern web applications.
 
