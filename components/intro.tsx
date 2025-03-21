@@ -64,8 +64,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Juan David Rodriguez Castelblanco</span><br /><br />
-        I am a <span className="font-bold">Software Developer</span> with over{" "}
-        <span className="font-bold">3 years</span> of experience building scalable enterprise applications using <span className="font-bold">Next.js</span> and <span className="font-bold">React</span>. I specialize in developing robust backend services with <span className="font-bold">.NET Core</span>, optimizing database performance, and creating modern web applications.
+        I am a <span className="font-bold">Software Developer</span>{" "}
+        <span className="font-bold"></span> specializing in building scalable enterprise applications using <span className="font-bold">Next.js</span> and <span className="font-bold">React</span>. I specialize in developing robust backend services with <span className="font-bold">.NET Core</span>, optimizing database performance, and creating modern web applications.
       </motion.h1>
 
       <motion.div
