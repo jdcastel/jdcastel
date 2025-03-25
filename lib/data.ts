@@ -46,7 +46,7 @@ export const projectsData = [
     title: "Enterprise Microservice Platform",
     description:
       "Built a high-performance microservice platform with robust CRUD operations and seamless CI/CD pipelines.",
-    tags: ["C#", "ASP.NET", "AWS", "Docker", "CI/CD"],
+    tags: ["Node.js", "Linux", "AWS", "Docker", "CI/CD"],
     imageUrl: enterpriseMicroserviceImg,
   },
   {
