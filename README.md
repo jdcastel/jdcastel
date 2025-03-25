@@ -1,6 +1,6 @@
 # Hi, I'm Juan David Rodriguez Castelblanco 👋
 
-I'm a **Software Developer** with over **3 years** of experience building scalable enterprise applications using **Next.js** and **React**. I specialize in developing robust backend services with **.NET Core**, optimizing database performance, and creating modern web applications.
+I'm a **Software Developer** specializing in building scalable enterprise applications using **Next.js** and **React**. I specialize in developing robust backend services with **.NET Core**, optimizing database performance, and creating modern web applications.
 
 ---
 
@@ -25,8 +25,7 @@ I'm a **Software Developer** with over **3 years** of experience building scalab
 ## 📁 Projects
 
 ### [Enterprise Microservice Platform](https://github.com/jdcastel/Microservice-fragments-Cloud-Computing)
-- Engineered a scalable microservices architecture for managing over 5M data points daily, boosting system reliability by 30%.
-- Developed secure RESTful APIs with **C#** and **ASP.NET Core**, optimized SQL queries, and implemented containerization with **Docker** and **Kubernetes**.
+- Developed secure RESTful APIs with **Typescript**, optimized SQL queries, and implemented containerization with **Docker** and **Kubernetes**.
 
 ### [Chronicle App (Social Journal Application)](https://chronicle-web-app-eight.vercel.app/)
 - Developed a multi-tenant, scalable application with seamless state management using **React**, **Next.js**, **Redux**, and **TypeScript**.
