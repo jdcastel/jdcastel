@@ -24,7 +24,7 @@ export const experiencesData = [
     date: "May 2024 – March 2025",
   },
   {
-    title: "Low-code Application Developer (Co-op)",
+    title: "Software Application Developer (Co-op)",
     location: "Government of Ontario, Toronto, ON",
     description:
       "Developed a multi-tenant web app using JavaScript and Node.js, supporting 1,000+ users. Managed 150+ support tickets monthly and optimized SQL queries.",
