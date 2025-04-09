@@ -16,14 +16,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer",
-    location: "Seneca Polytechnic, Toronto, ON",
-    description:
-      "Engineered a scalable microservices architecture for a fleet management application, boosting system reliability by 30%. Crafted secure RESTful APIs with C# and ASP.NET Core, refined SQL queries, and leveraged containerization with Docker and Kubernetes for seamless deployment.",
-    icon: React.createElement(FaServer),
-    date: "May 2024 – March 2025",
-  },
-  {
     title: "Software Application Developer (Co-op)",
     location: "Government of Ontario, Toronto, ON",
     description:
