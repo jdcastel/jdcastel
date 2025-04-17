@@ -21,7 +21,7 @@ export const experiencesData = [
     description:
       "Developed a multi-tenant web app using JavaScript and Node.js, supporting 1,000+ users. Managed 150+ support tickets monthly and optimized SQL queries.",
     icon: React.createElement(CgWorkAlt),
-    date: "September 2023 - April 2024",
+    date: "September 2022 - April 2023",
   },
   {
     title: "Technical Support Engineer Volunteer",
@@ -29,7 +29,7 @@ export const experiencesData = [
     description:
       "Mentored junior engineers, participated in daily standups, and assisted in troubleshooting technical issues.",
     icon: React.createElement(CgWorkAlt),
-    date: "January 2022 – August 2023",
+    date: "January 2022 – August 2022",
   },
 ] as const;
 
