@@ -16,10 +16,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Application Developer (Co-op)",
+    title: "Application Developer Internship",
     location: "Government of Ontario, Toronto, ON",
     description:
-      "",
+      "Collaborated with IT staff to design, develop, and test web-based applications. Assisted in writing clean, maintainable code (C#, .NET) and optimizing database queries. Participated in Agile ceremonies, conducted code reviews, and helped maintain CI/CD pipelines. Created technical documentation and supported end-user testing.",  
     icon: React.createElement(CgWorkAlt),
     date: "September 2022 - April 2023",
   },
@@ -27,11 +27,12 @@ export const experiencesData = [
     title: "Technical Support Engineer Volunteer",
     location: "Hispanotech, Toronto, ON",
     description:
-    "",
+      "Provided first- and second-tier technical support for hardware and software issues. Diagnosed and resolved incidents via chat, email, and phone; escalated complex problems to senior teams. Automated routine health-check scripts (Python/Bash) and maintained knowledge-base articles to improve troubleshooting efficiency.",  
     icon: React.createElement(CgWorkAlt),
     date: "January 2022 – August 2022",
   },
 ] as const;
+
 
 export const projectsData = [
   {
