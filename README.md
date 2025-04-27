@@ -12,8 +12,8 @@ I'm a **Software Developer** specializing in building scalable enterprise applic
 - **Node.js** · **Express.js**
 
 ### Cloud & Databases
-- **Google Cloud Platform (GCP)** · **AWS**  
-- **PostgreSQL** · **SQL Server** · **MongoDB**
+- **AWS**  
+- **PostgreSQL** · **SQL** · **MongoDB**
 
 ### Tools & Practices
 - **Git** · **CI/CD** · **Docker** · **Kubernetes**  
@@ -35,13 +35,7 @@ I'm a **Software Developer** specializing in building scalable enterprise applic
 
 ## 🏢 Experience
 
-- **Software Developer**  
-  *Seneca Polytechnic, Toronto, ON*  
-  May 2024 – March 2025  
-  - Designed and implemented microservices for a fleet management system.
-  - Developed RESTful APIs and optimized database performance.
-
-- **Low-code Application Developer (Co-op)**  
+- **Application Developer (Co-op)**  
   *Government of Ontario*  
   September 2023 – April 2024  
   - Designed and deployed a multi-tenant web application.
