@@ -27,7 +27,7 @@ export const experiencesData = [
     title: "Technical Support Engineer Volunteer",
     location: "Hispanotech, Toronto, ON",
     description:
-      "Provided first- and second-tier technical support for hardware and software issues. Diagnosed and resolved incidents via chat, email, and phone; escalated complex problems to senior teams. Automated routine health-check scripts (Python/Bash) and maintained knowledge-base articles to improve troubleshooting efficiency.",  
+      "Provided first- and second-tier technical support for hardware and software issues. Diagnosed and resolved incidents via chat, email, and phone; escalated complex problems to senior teams.",  
     icon: React.createElement(CgWorkAlt),
     date: "January 2022 – August 2022",
   },
